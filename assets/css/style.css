@@ -577,7 +577,6 @@ img{
     display: table-row-group;
 }
 
-
 .divRow {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -594,6 +593,9 @@ img{
 }
 .AttorneysNew {
   display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
 }
 .AttorneysNew h1{
     font-size: 20px;
@@ -605,27 +607,24 @@ img{
     font-size: 18px;
     color: #a6acb7;
     line-height: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
     max-width: 329px;
 }
 .AttorneysNew li {
   flex-grow: 1;
 }
-.divTableCell.text-right .AttorneysNew li {
-  text-align: right;
-}
 .divTableCell.text-right .AttorneysNew li:not(.AttorneyImg) {
-  flex-grow: 0;
-  margin-left: auto;
+  text-align: right;
 }
 .divTableCell.text-right .AttorneysNew p {
   text-align: right;
 }
 .AttorneyImg {
-  max-width: 140px;
-  height: 120px;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
 }
-.AttorneyImg {
+.AttorneyImg img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -635,6 +634,86 @@ img{
   padding: 0;
   margin: 0;
 }
+
+/* Мобильная адаптация для Why Choose Us */
+@media (max-width: 767.98px) {
+  .Attorneys li {
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+  
+  .Attorney {
+    display: none;
+  }
+  
+  .Attorneys li h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .Attorneys li p {
+    font-size: 16px;
+    padding: 0 20px 30px;
+  }
+  
+  .divTableCell.text-center img {
+    width: 100px;
+    height: 110px;
+    margin-bottom: 30px;
+  }
+  
+  .divRow {
+    grid-template-columns: 1fr;
+  }
+  
+  .divCenter {
+    order: -1;
+    margin-bottom: 30px;
+  }
+  
+  .AttorneysNew {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+  }
+  
+  .AttorneysNew h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .AttorneysNew p {
+    font-size: 16px;
+    max-width: 100%;
+    text-align: center !important;
+  }
+  
+  .AttorneyImg {
+    display: none;
+  }
+  
+  .divCenter > img {
+    width: 100px;
+    height: 110px;
+  }
+  
+  .divTableCell.text-right .AttorneysNew {
+    flex-direction: column;
+  }
+  
+  .divTableCell.text-right .AttorneysNew li:not(.AttorneyImg) {
+    text-align: center;
+  }
+  
+  .divTableCell.text-right .AttorneysNew p {
+    text-align: center;
+  }
+}
+
 
 /*--------------------------------------------------
    Services blocks
@@ -1387,6 +1466,7 @@ section{
     line-height: 30px;
     margin-top: 25px;
     max-width: 73%;
+    text-align: left;
 }
 .footer-top{
     font-size: 25px;
@@ -2035,6 +2115,7 @@ ol {
 .footer-h {
   /* max-width: 100%; */
   max-width: 73%;
+  text-align: left;
 }
 .footer-col {
   margin-left: 0 !important;
@@ -2114,6 +2195,11 @@ ol {
   .footer-logo img {
     margin: 0 auto 10px;
     max-width: 160px;
+  }
+
+  .footer-h {
+    text-align: center;
+    max-width: 100%;
   }
 
   .footer-col {
