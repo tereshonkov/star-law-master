@@ -546,6 +546,9 @@ img{
 .py-70{
   padding: 70px 0px;
 }
+.mb-30{
+  margin-bottom: 30px;
+}
 .mb-60{
   margin-bottom: 60px;
 }
@@ -720,6 +723,12 @@ img{
     text-align: center !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;           /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
   .AttorneyImg {
@@ -769,6 +778,12 @@ img{
     line-height:1.7em;
     color: #97a6b9;
     margin-bottom:30px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;           /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .button-div{
   margin-top: 20px;
@@ -1042,6 +1057,12 @@ iframe {
     line-height:30px;
     color: #fff;
     margin-bottom: 25px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;           /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .Solid-Law a{
     font-size: 20px;
@@ -1084,6 +1105,13 @@ iframe {
     margin:40px 0px;
     font-weight: 500;
     text-transform: capitalize;
+
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;           /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .bg_blue_img {
@@ -1182,6 +1210,12 @@ label{
     color: #a6acb7;
     font-size: 18px;
     padding-top: 20px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;           /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .service_banner{
@@ -1763,6 +1797,12 @@ iframe{
 .blog-content p{
   margin-bottom:20px;
   line-height:24px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 4;           /* количество строк */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .blog-img img {
     width: 100%;
@@ -1778,6 +1818,12 @@ iframe{
     color: #a6acb7;
     line-height: 30px;
     padding-bottom: 30px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;           /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .blog-body {
     padding: 10px;
