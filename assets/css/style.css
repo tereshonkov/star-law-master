@@ -21,7 +21,7 @@
 /* ==== ЛОГО В ХЕДЕРЕ ==== */
 :root {
   --logo-size-desktop: 180px; /* размер логотипа на десктопе */
-  --logo-size-mobile: 90px;   /* размер логотипа на мобилке */
+  --logo-size-mobile: 80px;   /* размер логотипа на мобилке (изменил на 80 для правильного центрирование header) */
 }
 
 /* ===== ДЕСКТОП (по умолчанию) ===== */
@@ -80,8 +80,8 @@
 
   /* позиция логотипа на мобилке */
   .navbar.navbar-default.header_aera .navbar-brand.logo-biss {
-    margin-top: 4px;    /* чуть опустить */
-    margin-left: 10px;  /* отступ от левого края */
+    /* margin-top: 4px;    чуть опустить  (Не нужно опускать! Это ломает центрирование!*/   
+    /* margin-left: 10px;   отступ от левого края (Нет некакого смысла в этом отступе, лого ровняется по общему layout!)*/
   }
 
   /* УВЕЛИЧЕННЫЙ ЛОГОТИП НА МОБИЛКЕ */
@@ -1779,7 +1779,7 @@ ol {
   height: 80px;
 }
 .header_aera .navbar-header .navbar-brand {
-  padding-top: 25px !important;
+  /* padding-top: 25px !important; */  /* Это ломает выравнивание на телефоне и логотип падает вниз! */
   padding-left: 15px !important;
 }
 .header_aera .navbar-collapse .navbar-nav.navbar-right li a {
