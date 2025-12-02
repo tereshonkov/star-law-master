@@ -106,6 +106,15 @@
     font-size: 16px;
     padding: 14px 12px;
   }
+
+  /* Добавлено: кнопка в hero-секции, чтобы не вылазила за пределы экрана */
+  .top-contact .btn {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 16px;
+    padding: 12px 24px;
+    white-space: normal;
+  }
 }
 
 
