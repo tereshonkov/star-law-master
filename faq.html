@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FAQ — Payment, Broker & Crypto Disputes | Transaction Helpdesk Ltd</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Answers to common questions about payment disputes, online brokers, trading platforms and crypto-related matters. Learn how Transaction Helpdesk Ltd approaches legal analysis and consultations.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="assets/vendors/animate/animate.css" rel="stylesheet">
+    <!-- Icon CSS-->
+    <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css">
+    <!-- Owlcarousel CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/owl_carousel/owl.carousel.css" media="all">
+    <!--Template Styles CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <!-- FAQ accordion tweaks -->
+    <style>
+      /* Отступ между вводным текстом и аккордеоном */
+      .faq-intro {
+        margin-bottom: 30px;
+      }
+
+      /* Общий вид панелей */
+      #faqAccordion .panel {
+        margin-bottom: 15px !important;
+        border-radius: 4px !important;
+        border: 1px solid #d9d9e5 !important;
+        background: #ffffff !important;
+      }
+
+      #faqAccordion .panel-heading {
+        background-color: #ffffff !important;
+        padding: 12px 18px !important;
+        border-bottom: 1px solid #d9d9e5 !important;
+      }
+
+      /* Текст вопроса */
+      #faqAccordion .panel-title a {
+        color: #1b1b1b !important;
+        font-size: 15px !important;
+        font-weight: 600 !important;
+        text-decoration: none !important;
+        display: block !important;
+        position: relative;
+        padding-right: 22px; /* место под плюс */
+      }
+
+      #faqAccordion .panel-title a:hover,
+      #faqAccordion .panel-title a:focus {
+        color: #000000 !important;
+        text-decoration: none !important;
+      }
+
+      /* Плюс / минус справа */
+      #faqAccordion .panel-title a::after {
+        content: '+';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      #faqAccordion .panel-title a[aria-expanded="true"]::after {
+        content: '–';
+      }
+
+      /* Тело ответа */
+      #faqAccordion .panel-body {
+        background: #ffffff !important;
+        color: #333333 !important;
+        padding: 15px 18px !important;
+        font-size: 14px !important;
+        line-height: 1.55 !important;
+      }
+
+      /* Доп. отступ между панелями */
+      #faqAccordion .panel + .panel {
+        margin-top: 5px !important;
+      }
+    </style>
+
+    <!-- FAQPage Schema for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of disputes does Transaction Helpdesk Ltd handle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transaction Helpdesk Ltd focuses on disputes involving card payments, chargebacks, online brokers, investment platforms, payment service providers and crypto-related services. The firm analyses contracts, correspondence and transaction history to assess the client’s legal position."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you guarantee that my money will be returned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Transaction Helpdesk Ltd does not guarantee recovery of any specific amount or a particular outcome. Every case depends on its own facts, documents, applicable law and the actions of banks, platforms and other parties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide investment or trading advice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The firm does not provide investment, trading or financial advice. Its work focuses on legal matters such as contracts, procedures, regulatory aspects and dispute resolution, not on recommending trades or financial products."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the initial legal consultation work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the inquiry appears to fall within the firm’s practice areas, an initial consultation may be offered. During this consultation basic facts are clarified, essential documents may be reviewed at a high level and general legal options are discussed. It is not a guarantee that the firm will take on the case or that any particular result will be achieved."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What information should I prepare before contacting you?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is helpful to prepare basic information such as the names of banks, brokers or platforms involved, key dates, amounts, screenshots of account statements, relevant emails and copies of agreements or terms and conditions. Clients are asked to avoid sending full document sets or highly sensitive data before the firm confirms that it can review the matter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help with disputes involving crypto exchanges and wallets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In many cases the firm can review disputes related to crypto exchanges, custodial wallets and payment services connected to digital assets. The focus is on contractual documentation, communication history and applicable regulation, rather than on the technical aspects of blockchain networks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your services available in my country?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Availability of services depends on the jurisdiction, professional rules and the specific characteristics of the matter. In some situations the firm may cooperate with local counsel. This is clarified once there is a basic understanding of the case."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are your fees determined?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees depend on factors such as the complexity of the matter, the expected amount of work, applicable law and jurisdiction. Before any engagement the firm provides information about the proposed fee structure in accordance with professional rules. Website content does not constitute an offer or quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does sending a contact form create an attorney–client relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Sending a contact form or email does not by itself create an attorney–client relationship. Such a relationship may be established only after required checks are performed and both sides explicitly agree to it, usually through a written engagement agreement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if I suspect fraud or a scam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If fraud is suspected, it is advisable to collect evidence, contact the bank or payment provider and consider reporting the matter to the relevant authorities. The firm may, subject to conflicts and professional rules, review the situation from a legal perspective, but it cannot reverse transactions or stop ongoing schemes by itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a payment or broker dispute usually take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Timeframes vary widely. Some payment disputes or chargebacks may be resolved within a few weeks, while complex broker or platform disputes can take many months or longer. The duration depends on the institutions involved, regulatory procedures, the availability of evidence and the legal route chosen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you communicate directly with my bank or broker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Where permitted and once an engagement is in place, the firm may correspond with banks, brokers or payment providers on the client’s behalf. However, those institutions remain independent and make their own decisions under their internal policies and applicable law."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help if I have already tried a chargeback or complaint on my own?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In some cases the firm can review matters where a client has already lodged a chargeback, complaint or claim. Prior steps taken and previous correspondence are important for the legal assessment. The fact that a prior complaint was rejected does not automatically mean that no options remain, but it also does not guarantee that any further action will succeed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with cases involving unregulated or offshore brokers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The firm may review disputes involving unregulated or offshore brokers, but available legal tools can be more limited than with fully regulated institutions. A realistic assessment of expectations is essential, as enforcement and recovery options may be constrained."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you assist with regulatory complaints or reports to authorities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Subject to jurisdiction and professional rules, the firm may assist in preparing or structuring complaints to financial regulators or other authorities. Those bodies are, however, independent and the firm cannot influence or guarantee the outcome of any regulatory process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use this website instead of consulting a lawyer in my country?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The content of this website is general information only and is not a substitute for tailored legal advice from a professional who is authorised to practise in your jurisdiction and familiar with your full situation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you cooperate with other law firms or local counsel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Where appropriate, and subject to conflicts and confidentiality requirements, the firm may cooperate with other law firms or local counsel to address cross-border aspects of a matter. Any such cooperation is structured in line with professional and regulatory rules."
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+
+    <!-- Top banner with header -->
+    <div class="service-banner-img">
+      <div class="ovrllay">
+     <nav class="navbar navbar-default header_aera affix-top">
+  <div class="container m-s">
+    <div class="col-md-4 p0">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo-biss" href="index.html"> transaction helpdesk ltd </a>
+      </div>
+    </div>
+    <div class="col-md-8 p0">
+      <div class="collapse navbar-collapse" id="min_navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown submenu"><a href="index.html">Home</a></li>
+          <li class="dropdown submenu"><a href="services.html">Practice Areas</a></li>
+          <li class="dropdown submenu"><a href="blog.html">News &amp; Resources</a></li>
+          <li class="dropdown submenu"><a href="faq.html">FAQ</a></li>
+          <li class="dropdown submenu"><a href="about.html">The Firm</a></li>
+          <li class="dropdown submenu"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+        <section id="banner" class="py-70">
+          <div class="container">
+            <div class="row py-70">
+              <div id="banner-text" class="col-md-12 text-c">
+                <div class="left-borders">
+                  <h5 class="wow fadeInUp main-about_h" data-wow-delay="0.2s">FAQ</h5>
+                  <p class="banner-text wow fadeInUp main-h3" data-wow-delay="0.8s">
+                    <span class="c_yellow">QUESTIONS ABOUT PAYMENT, BROKER &amp; CRYPTO DISPUTES</span><br>
+                    ANSWERS ABOUT OUR APPROACH AND LIMITATIONS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Main FAQ Content -->
+    <section class="py-70 bg_gray">
+      <div class="container">
+        <div class="row">
+          <!-- Main text -->
+          <div class="col-md-8">
+            <div class="title text-left">
+              <h1>Frequently Asked Questions</h1>
+              <div class="hed_img">
+                <img src="assets/images/headding-img.png" alt="">
+              </div>
+              <p class="faq-intro">
+                Below we answer common questions about payment disputes, online brokers, trading platforms and
+                crypto-related issues. The information is general only and does not replace tailored legal advice.
+              </p>
+            </div>
+
+            <!-- ACCORDION -->
+            <div class="panel-group" id="faqAccordion" role="tablist" aria-multiselectable="true">
+
+              <!-- Q1 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                      1. What types of disputes do you handle?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      We focus on legal issues connected with electronic payments and online financial services, including:
+                    </p>
+                    <ul>
+                      <li>Disputes over card payments, chargebacks and reversed transactions.</li>
+                      <li>Conflicts with online brokers and investment platforms, such as blocked balances or rejected withdrawals.</li>
+                      <li>Cases involving payment service providers, acquiring banks and merchant accounts.</li>
+                      <li>Matters related to crypto exchanges, custodial wallets and digital-asset payment services.</li>
+                    </ul>
+                    <p class="about-bottom-s">
+                      Each inquiry is assessed individually, and we may not be able to assist in every situation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q2 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      2. Can you guarantee that my money will be returned?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      No. We do <strong>not</strong> guarantee recovery of any funds or a particular outcome in any dispute.
+                      The result of a matter depends on:
+                    </p>
+                    <ul>
+                      <li>The specific facts and timeline of your case.</li>
+                      <li>The contracts and terms you accepted with banks, brokers or platforms.</li>
+                      <li>The quality and completeness of supporting evidence.</li>
+                      <li>The applicable law and regulatory environment.</li>
+                      <li>The responses and decisions of counterparties and authorities.</li>
+                    </ul>
+                    <p class="about-bottom-s">
+                      Our role is to provide legal analysis and representation within the boundaries of applicable law and
+                      professional rules, not to promise a particular financial result.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q3 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      3. Do you provide investment or trading advice?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      We do not provide investment, trading or financial advice. We do not manage trading accounts, select
+                      financial products or recommend when to enter or exit positions.
+                    </p>
+                    <p class="about-bottom-s">
+                      Our work is centred on legal aspects: contracts, procedures, regulatory obligations, communication with
+                      institutions and dispute resolution mechanisms.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q4 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading4">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      4. How does the initial legal consultation work?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      If, after a preliminary review of your inquiry, we consider that your matter may fall within our
+                      practice areas, we may offer an initial legal consultation. During this consultation we typically:
+                    </p>
+                    <ul>
+                      <li>Clarify key facts (who, what, when, where).</li>
+                      <li>Review essential documents at a high level, if available.</li>
+                      <li>Discuss possible legal options and limitations.</li>
+                      <li>Explain the next steps if both sides are interested in moving forward.</li>
+                    </ul>
+                    <p class="about-bottom-s">
+                      The consultation itself does not guarantee that we will accept the case or that any particular
+                      outcome will be achieved.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q5 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      5. What information should I prepare before contacting you?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      To help us understand your situation more efficiently, it is useful to have:
+                    </p>
+                    <ul>
+                      <li>The names of banks, brokers, platforms or payment services involved.</li>
+                      <li>Key dates (payments, withdrawals, account blocks, correspondence).</li>
+                      <li>Amounts at issue and currency.</li>
+                      <li>Screenshots or statements showing relevant transactions.</li>
+                      <li>Copies or links to terms and conditions, agreements or contracts.</li>
+                    </ul>
+                    <p class="about-bottom-s">
+                      Please avoid sending full document collections or sensitive information until we confirm whether we
+                      can review your matter and explain the secure way to share materials.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q6 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading6">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      6. Can you help with disputes involving crypto exchanges and wallets?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      In many cases we can examine disputes connected with crypto exchanges, custodial wallets and related
+                      payment services, especially where there are issues with withdrawals, frozen accounts, KYC/AML checks
+                      or interpretation of platform terms.
+                    </p>
+                    <p class="about-bottom-s">
+                      Our analysis focuses on legal aspects — contractual documentation, communication history and
+                      applicable regulatory framework — not on providing technical blockchain support or trading strategies.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q7 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading7">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                      7. Are your services available in my country?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      The availability of our services depends on jurisdiction, local regulations and professional rules.
+                      In some matters we may cooperate with other legal professionals or local counsel where appropriate.
+                    </p>
+                    <p class="about-bottom-s">
+                      When you contact us, please indicate your country of residence and where the bank, broker or platform
+                      is located. This helps us quickly understand whether we may be able to assist.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q8 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading8">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                      8. How are your fees determined?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      Our fees are determined based on factors such as:
+                    </p>
+                    <ul>
+                      <li>The complexity and estimated duration of the matter.</li>
+                      <li>The volume of documents and analysis required.</li>
+                      <li>The jurisdictions and applicable law involved.</li>
+                      <li>The type of work (advice, correspondence, negotiation, representation).</li>
+                    </ul>
+                    <p class="about-bottom-s">
+                      Before any engagement is confirmed, we provide information about the proposed fee structure in
+                      accordance with professional and regulatory requirements. Nothing on this website constitutes an
+                      offer, quote or binding fee agreement.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q9 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading9">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                      9. Does sending a contact form create an attorney–client relationship?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      No. Simply sending us a contact form, email or message does not create an attorney–client relationship.
+                      Such a relationship may be formed only after:
+                    </p>
+                    <ul>
+                      <li>We have performed necessary conflict checks.</li>
+                      <li>We have confirmed that we are able to act in your matter under applicable rules.</li>
+                      <li>Both you and we have explicitly agreed to the engagement, usually in writing.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q10 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading10">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                      10. What should I do if I suspect fraud or a scam?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      If you suspect that you have been affected by fraud or a scam, consider taking the following general steps:
+                    </p>
+                    <ul>
+                      <li>Collect and safely store all relevant evidence (emails, screenshots, statements).</li>
+                      <li>Contact your bank or payment provider promptly to report the issue.</li>
+                      <li>Consider reporting the matter to the competent authorities in your jurisdiction.</li>
+                    </ul>
+                    <p class="about-bottom-s">
+                      We may, subject to conflicts and professional rules, be able to review your situation from a legal
+                      perspective. However, we cannot unilaterally reverse transactions, stop ongoing schemes or guarantee
+                      that any authority or institution will take a particular action.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q11 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading11">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                      11. How long does a payment or broker dispute usually take?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      Timeframes vary widely. Some payment disputes or chargebacks may be resolved within a few weeks,
+                      while complex broker or platform disputes can take many months or longer.
+                    </p>
+                    <p class="about-bottom-s">
+                      Duration depends on the institutions involved, regulatory procedures, the availability of evidence
+                      and the legal strategy chosen. No fixed timeline can be promised in advance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q12 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading12">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                      12. Can you communicate directly with my bank or broker?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      Where permitted and once an engagement is in place, we may correspond with banks, brokers or payment
+                      providers on your behalf as part of the legal work.
+                    </p>
+                    <p class="about-bottom-s">
+                      However, these institutions remain independent and make their own decisions under internal policies
+                      and applicable law. We cannot force them to accept a particular position or outcome.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q13 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading13">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                      13. Can you help if I already tried a chargeback or complaint on my own?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      In some cases we can review matters where you have already submitted a chargeback, complaint or claim.
+                      Previous correspondence and decisions will be important for our assessment.
+                    </p>
+                    <p class="about-bottom-s">
+                      A rejected complaint does not automatically mean that no options remain, but it also does not guarantee
+                      that further steps will succeed. We provide a realistic view based on the available material.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q14 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading14">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                      14. Do you work with cases involving unregulated or offshore brokers?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      We may review disputes involving unregulated or offshore brokers, but available legal tools can be
+                      more limited compared with fully regulated entities.
+                    </p>
+                    <p class="about-bottom-s">
+                      Enforcement and recovery options in such situations may be constrained, and expectations must remain
+                      realistic. No recovery can be promised solely because a broker acted improperly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q15 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading15">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                      15. Can you assist with regulatory complaints or reports to authorities?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      Subject to jurisdiction and professional rules, we may assist in drafting or structuring complaints
+                      to financial regulators or other competent authorities.
+                    </p>
+                    <p class="about-bottom-s">
+                      Regulators are independent bodies and we cannot influence or guarantee their decisions or the timing
+                      of their procedures.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q16 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading16">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                      16. Can I use this website instead of consulting a lawyer in my country?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      No. Content on this website is general information only. It cannot replace personalised advice from a
+                      qualified lawyer who is authorised to practise in your jurisdiction and familiar with your full situation.
+                    </p>
+                    <p class="about-bottom-s">
+                      Decisions about legal action should not be based solely on website materials.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q17 -->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading17">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faqAccordion" href="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                      17. Do you cooperate with other law firms or local counsel?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
+                  <div class="panel-body">
+                    <p class="about-bottom-s">
+                      Where appropriate, and subject to conflicts and confidentiality requirements, we may cooperate with
+                      other law firms or local counsel to address cross-border or local aspects of a matter.
+                    </p>
+                    <p class="about-bottom-s">
+                      Any such cooperation is structured in line with professional and regulatory rules of the jurisdictions involved.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- /ACCORDION -->
+          </div>
+
+          <!-- Side box with CTA / disclaimer -->
+          <div class="col-md-4">
+            <div class="service-s">
+              <h2 class="Practice">Need more clarity?</h2>
+              <p class="bottom-s">
+                If your question is not covered here, you can send us a brief description of your situation.
+                We will review it and let you know whether an initial legal consultation may be appropriate.
+                No specific outcome is guaranteed and no investment or trading advice is provided.
+              </p>
+              <div class="button-div">
+                <a href="contact.html" class="button-buttom">contact us</a>
+              </div>
+            </div>
+
+            <div class="service-s" style="margin-top:30px;">
+              <h2 class="Practice">Important disclaimer</h2>
+              <p class="bottom-s">
+                – All information on this page is general and may not reflect the latest legal or regulatory changes.<br><br>
+                – Nothing here should be treated as a personal recommendation, investment strategy or trading signal.<br><br>
+                – We cannot guarantee recovery of funds, reversal of transactions or any particular decision by banks,
+                brokers, platforms, payment providers or authorities.<br><br>
+                – Using this website or reading the FAQ does not create an attorney–client relationship. Such a relationship
+                may arise only after separate checks and a written engagement agreement.<br><br>
+                – We are independent from banks, brokers, exchanges and payment services mentioned in typical disputes;
+                they make their own decisions under their internal policies and applicable law.<br><br>
+                – For full details please see our
+                <a href="disclaimer.html">Legal Disclaimer</a>,
+                <a href="terms.html">Terms &amp; Conditions</a> and
+                <a href="privacy.html">Privacy Policy</a>.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- нижний CTA-блок -->
+    <div class="our_partners_area bg_gradient_team">
+      <div class="book_now_aera">
+        <div class="container">
+          <div class="row book_now">
+            <div class="col-md-7 booking_text">
+              <h4>
+                Still have questions about a payment, broker or crypto dispute?
+              </h4>
+              <p>
+                Share a short summary of your case using our contact form. We will review the information and, if
+                appropriate, contact you about a possible initial legal consultation. We cannot guarantee any
+                particular result.
+              </p>
+            </div>
+            <div class="col-md-5 p0 book_bottun">
+              <div class="col-md-5"></div>
+              <div class="col-md-7">
+                <div class="top-banner wow fadeInRight text-left">
+                  <a href="contact.html" class="btn btn-primary radius-50 wow fadeInUp js-scroll-trigger" data-wow-delay="0.5s">
+                    Go to contact form
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--#start Our footer Area -->
+    <div class="our_footer_area">
+      <div class="book_now_aera">
+        <div class="container wow fadeInUp">
+          <div class="row book_now">
+            <div class="col-md-4">
+              <div class="">
+                <a class="logo-biss" href="index.html"> Transaction Helpdesk Ltd</a>
+              </div>
+              <p class="footer-h">
+                Transaction Helpdesk Ltd provides legal services in disputes related to payments, brokers and digital assets.
+                Information on this website is for general purposes only and is not legal or investment advice.
+              </p>
+              <div class="bigpixi-footer-social">
+                <a href="" target="_blank"><i id="social-fb" class="fa fa-facebook fa-2x social"></i></a>
+                <a href="" target="_blank"><i id="social-tw" class="fa fa-twitter fa-2x social"></i></a>
+                <a href="" target="_blank"><i id="social-em" class="fa fa-instagram fa-2x social"></i></a>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+              <h2 class="footer-top">QUICK LINKS </h2>
+              <ul class="footer-menu">
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="about.html">THE FIRM</a></li>
+                <li><a href="services.html">PRACTICE AREAS</a></li>
+                <li><a href="blog.html">NEWS &amp; RESOURCES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="privacy.html">PRIVACY POLICY</a></li>
+                <li><a href="terms.html">TERMS &amp; CONDITIONS</a></li>
+                <li><a href="disclaimer.html">LEGAL DISCLAIMER</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul class="location">
+                <h2 class="footer-top">Contact Info </h2>
+                <li class="footer-left-h">505 Thornall St #301,<br>Edison, NJ 08837, USA</li>
+                <li class="footer-left-h">
+                  <span class="c_yellow">Email :</span>
+                  <a href="mailto:enquiry@demo.com"> enquiry@demo.com </a>
+                </li>
+                <li class="footer-left-h">
+                  <span class="c_yellow">Call Us: </span>+1- 982-8-587 452
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-12">
+              <p class="color-gray">
+                Designed by <a href="https://www.navthemes.com">NavThemes</a> and distributed by
+                <a href="https://themewagon.com">ThemeWagon</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--#End Our footer Area -->
+
+    <!-- jQuery JS -->
+    <script src="assets/js/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Animate JS -->
+    <script src="assets/vendors/animate/wow.min.js"></script>
+    <!-- Owlcarousel JS -->
+    <script src="assets/vendors/owl_carousel/owl.carousel.min.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
+  </body>
+</html>
