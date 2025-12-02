@@ -811,6 +811,7 @@ img{
     background: #fff;
     transition-duration: 1s;
     text-align: center;
+    height: 100%;
 }
 .service-s:hover{
     box-shadow: 0px 10px 50px #d8d8d8d1; 
@@ -1004,6 +1005,9 @@ iframe {
 }
 .mt-50{
   margin-top: 50px;
+}
+.mt-30{
+  margin-top: 30px;
 }
 .mt-100{
   margin-top: 100px;
@@ -1908,6 +1912,7 @@ ul.location{
 .blog-body{margin-bottom: 15px;}
 .bottom_service{position: relative;top: 0px;}
 .mt_560{margin-top:0px;}
+.mt-30{margin-top:0px;}
 .service-s{margin-bottom: 15px;}
 .header_aera{
   padding: 30px 0px !important;
