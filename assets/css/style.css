@@ -1374,6 +1374,7 @@ section{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #050816;
 }
 .footer-logo{
     max-width: 100%;
@@ -1385,6 +1386,7 @@ section{
     color: #fff;
     line-height: 30px;
     margin-top: 25px;
+    max-width: 73%;
 }
 .footer-top{
     font-size: 25px;
@@ -1406,6 +1408,13 @@ section{
     list-style-type: none;
     line-height: 40px;
     color: #fff;
+}
+.footer-menu li a {
+  color: #d7dbff;
+}
+.footer-menu li a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 .location li {
     font-size: 20px;
@@ -1431,6 +1440,30 @@ section{
 .location_map li a {
     margin-right:10px;
     color:#3b4a6b !important;
+}
+
+.footer-col {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.footer-logo-wrap {
+  margin-bottom: 15px;
+}
+
+.footer-main-row {
+  align-items: flex-start;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-bottom .color-gray {
+  font-size: 12px;
+  opacity: 0.7;
+  margin: 0;
 }
 
 .social:hover {
@@ -1996,10 +2029,21 @@ ol {
 
 .footer-main-row {
   align-items: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer-h {
+  /* max-width: 100%; */
+  max-width: 73%;
+}
+.footer-col {
+  margin-left: 0 !important;
 }
 
 .footer-col {
   margin-bottom: 30px;
+  margin-left: 0;
+  padding: 0 15px;
 }
 
 /* логотип в футере */
@@ -2078,5 +2122,38 @@ ol {
 
   .location {
     margin-top: 15px;
+  }
+}
+
+
+/* Добавлено: блок стилей для центрирования колонок футера на десктопах */
+@media (min-width: 992px) {
+  .our_footer_area .footer-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .our_footer_area .footer-main-row::before,
+  .our_footer_area .footer-main-row::after {
+    display: none;
+  }
+
+  .our_footer_area .footer-main-row > .footer-col,
+  .our_footer_area .footer-main-row > .footer-bottom {
+    float: none;
+  }
+
+  .our_footer_area .footer-main-row > .footer-col {
+    flex: 0 0 auto;
+  }
+
+  .our_footer_area .footer-main-row > .footer-bottom {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 20px;
   }
 }
