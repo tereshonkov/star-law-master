@@ -1326,6 +1326,7 @@ section{
     color: #fff;
     line-height: 30px;
     margin-top: 25px;
+    max-width: 73%;
 }
 .footer-top{
     font-size: 25px;
@@ -1646,6 +1647,12 @@ iframe{
     right: 30px;
     top: 200px;
  }
+   .footer-h {
+    max-width: 100%;
+  }
+  .footer-col {
+    margin-left: 0 !important;
+  }
 }
 
 /* min-width: 768px */
@@ -1941,6 +1948,7 @@ ol {
 
 .footer-col {
   margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 /* логотип в футере */
