@@ -1543,8 +1543,9 @@ section{
     height: auto;
 }
 .footer-logo img {
-  max-height: 70px;
-  width: auto;
+  max-height: 170px;
+  /* width: auto; */
+  width: 170px;
 }
 .footer-h{
     font-size: 18px;
