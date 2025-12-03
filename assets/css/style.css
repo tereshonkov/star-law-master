@@ -1423,6 +1423,12 @@ label{
     padding-top: 20px;
 }
 
+@media (min-width: 768px) {
+  .row.book_now .top-banner .btn {
+    margin-left: -18px;
+  }
+}
+
 /*----------------------------------
    Misc paddings
 ------------------------------------*/
