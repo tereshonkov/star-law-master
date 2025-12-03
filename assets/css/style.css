@@ -468,7 +468,7 @@ dd, dt {
 
 .service-banner-img{
   background: rgba(255,255,255,0);
-    background-image: url(../images/service-banner-img.jpg);
+    background-image: url(../images/banner-img-london.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
     -webkit-background-size: cover;
@@ -1356,6 +1356,20 @@ label{
 .testimonial_area .testimonial_carosel .item .media .media-body h6 {
   color: #555555;
   padding-top: 5px;
+}
+.item img {
+  width: 139px;
+  height: 62px;
+  object-fit: contain;
+}
+.partners .item img {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+.partners .item img:hover {
+  filter: none;
+  opacity: 1;
 }
 .body-slider{
     font-size: 20px;
